@@ -1,0 +1,39 @@
+# ── Real (private) data — NEVER commit ────────────────────────────────────────
+# Real station observations from the State Hydrometeorological Service are
+# proprietary. Only synthetic data is distributed in this repo.
+*_REAL.*
+data/*_REAL.csv
+
+# ── GIS source assets (large, not needed at runtime) ──────────────────────────
+DEM_MD/
+Borders_MD/
+MD_Stations/
+Raioane_MD/
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# ── Reports / binaries ────────────────────────────────────────────────────────
+*.pdf
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ── Streamlit / tooling ───────────────────────────────────────────────────────
+.streamlit/secrets.toml
+.claude/
+
+# ── macOS / exFAT cruft ───────────────────────────────────────────────────────
+.DS_Store
+._*
+*.sr.lock

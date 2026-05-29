@@ -1,0 +1,93 @@
+{
+  "model_name": "HistGradientBoosting + SMOTE 30% + balanced sample_weight",
+  "macro_f1": 0.855,
+  "weighted_f1": 0.913,
+  "roc_auc": 0.992,
+  "accuracy": 0.911,
+  "cv_f1_mean": 0.955,
+  "cv_f1_std": 0.007,
+  "per_class": {
+    "Extremely Dry": {
+      "precision": 0.85,
+      "recall": 0.79,
+      "f1": 0.82,
+      "support": 29
+    },
+    "Severely Dry": {
+      "precision": 0.88,
+      "recall": 0.72,
+      "f1": 0.79,
+      "support": 140
+    },
+    "Moderately Dry": {
+      "precision": 0.74,
+      "recall": 0.94,
+      "f1": 0.83,
+      "support": 268
+    },
+    "Normal": {
+      "precision": 0.98,
+      "recall": 0.93,
+      "f1": 0.96,
+      "support": 1457
+    },
+    "Moderately Wet": {
+      "precision": 0.82,
+      "recall": 0.92,
+      "f1": 0.87,
+      "support": 288
+    },
+    "Severely Wet": {
+      "precision": 0.88,
+      "recall": 0.76,
+      "f1": 0.82,
+      "support": 89
+    },
+    "Extremely Wet": {
+      "precision": 0.97,
+      "recall": 0.85,
+      "f1": 0.9,
+      "support": 33
+    }
+  },
+  "feature_importance": {
+    "precip_roll3": 0.4243,
+    "t_med_lag1": 0.2233,
+    "t_med_lag6": 0.1112,
+    "month_sin": 0.0673,
+    "station_lat": 0.0479,
+    "t_med_anom_roll3": 0.0371,
+    "month_cos": 0.0222,
+    "t_max": 0.0113,
+    "precip_roll12": 0.0091,
+    "t_med_lag3": 0.0086,
+    "precip_lag3": 0.0052,
+    "precip_lag1": 0.0051,
+    "t_med_anom": 0.0051,
+    "t_min": 0.005,
+    "t_med": 0.0041,
+    "precip": 0.0032,
+    "station_lon": 0.0031,
+    "precip_roll6": 0.0022,
+    "aridity_idx": 0.0022,
+    "t_min_anom": 0.0016,
+    "t_max_anom": 0.0011,
+    "precip_lag12": 0.0,
+    "precip_lag6": 0.0,
+    "precip_anom": 0.0
+  },
+  "new_features": [
+    "precip_lag6",
+    "precip_lag12",
+    "t_med_lag6",
+    "precip_roll6",
+    "precip_roll12",
+    "t_med_anom_roll3",
+    "station_lat",
+    "station_lon",
+    "aridity_idx"
+  ],
+  "n_rows": 11520,
+  "smote_normal": 5829,
+  "smote_target": 1748
+}
