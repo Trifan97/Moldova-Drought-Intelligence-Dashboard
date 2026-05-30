@@ -1,9 +1,11 @@
 # Moldova Drought Intelligence Dashboard
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B)
+[![Live demo](https://img.shields.io/badge/Live%20demo-Streamlit%20Cloud-FF4B4B?logo=streamlit&logoColor=white)](https://moldova-drought-intelligence-dashboard-7ing3ca97hx998d3skhngd.streamlit.app/)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Macro F1](https://img.shields.io/badge/Macro%20F1-0.855-1AA99A)
+
+**🚀 Live demo:** https://moldova-drought-intelligence-dashboard-7ing3ca97hx998d3skhngd.streamlit.app/
 
 An interactive Streamlit dashboard for exploring 60 years of drought dynamics
 across 16 meteorological stations in the Republic of Moldova (1961–2020),
