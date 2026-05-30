@@ -1,6 +1,7 @@
 """
 map_builder.py — PyDeck layer factory for Moldova Drought Dashboard
 """
+from __future__ import annotations
 
 import json
 import pydeck as pdk
